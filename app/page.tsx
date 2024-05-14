@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export async function generateMetadata(): Promise<Metadata> {
-  const url = 'https://pf-ps-frame-base.vercel.app' || 'http://localhost:3000'
+  const url = 'https://pf-ps-brame-base.vercel.app' || 'http://localhost:3000'
 
   const frameMetadata = await getFrameMetadata(`${url}/api`)
   return {
